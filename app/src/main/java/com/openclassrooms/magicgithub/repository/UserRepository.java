@@ -15,7 +15,7 @@ public class UserRepository {
 
     public List<User> getUsers() {
         return apiService.getUsers();
-    } // TODO : Pourquoi apiService et pas FakeApiService ?
+    }
 
     public void generateRandomUser() {
         apiService.generateRandomUser();

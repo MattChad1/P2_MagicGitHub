@@ -29,7 +29,6 @@ import java.util.stream.Collectors;
 public class UserRepositoryTest {
 
     private UserRepository userRepository;
-    //private ApiService apiService;
 
     @Before
     public void setup() {
